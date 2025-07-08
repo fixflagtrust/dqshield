@@ -1,0 +1,23 @@
+name: 🐛 Bug Report
+description: File a bug or unexpected behavior
+title: "[BUG] "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the bug?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
+  - type: input
+    attributes:
+      label: Browser / Environment
+      placeholder: e.g. Chrome 115, Node 18
